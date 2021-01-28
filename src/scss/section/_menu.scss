@@ -1,0 +1,23 @@
+.section {
+    &__menu {
+        width: 132.34px;
+        height: 100%;
+        background-color: $black;
+        border-radius: 0px 24px 24px 0px;
+
+        .menu {
+            &__wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            &__list {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+        }
+    }
+}
