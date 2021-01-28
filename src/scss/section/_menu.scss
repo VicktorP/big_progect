@@ -18,6 +18,28 @@
                 padding: 0;
             }
 
+            &__logo{
+                width: 100%;
+            }
+
+            &__img{
+                padding-top: 45px;
+                padding-bottom: 110px;
+            }
+            &__item{
+                padding-bottom: 65px;
+                text-align: center;
+
+                &:last-child{
+                    padding-bottom: 0px;
+                }
+            }
+
+            &__bottom{
+                padding: 40px 0;
+
+            }
+
         }
     }
 }
