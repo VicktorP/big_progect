@@ -1,0 +1,63 @@
+.container__user {
+    width: 100%;
+    max-width: 990px;
+
+    .user {
+        &__hello {
+            display: flex;
+            justify-content: space-between;
+            color: $black;
+
+
+            &-text {
+                margin-top: 27px;
+                margin-left: 31px;
+            }
+
+            &-title {
+                font-family: SFUIText;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 43px;
+                margin: 0;
+            }
+
+            &-desc {
+                font-family: Roboto;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                margin: 0;
+                padding-top: 14px;
+            }
+        }
+
+        &__course {
+            display: grid;
+            grid-template-columns: 10fr 1fr 1fr;
+            grid-gap: 40px;
+            margin-top: 40px;
+
+            .course {
+                &__info {
+                    display: grid;
+                    grid-template-columns: 10% 90%;
+                }
+
+                &-desc {
+                    margin-left: 38px;
+
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.course {
+    width: 990px;
+    height: 700px;
+    background-color: aqua;
+}

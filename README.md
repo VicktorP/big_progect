@@ -1,6 +1,6 @@
 # Сборка на основе Gulp от студии CupTeam Design Studio
 ---
-### Начало
+# Начало
 Скопируйте данную команду
 ```
 git clone https://github.com/atereshhuk68/cupteam-gulp-starter.git .; rm -rf trunk .gitignore readme.md .git

@@ -1,7 +1,7 @@
 # Remove node_modules folder
 /node_modules
 # Remove build folder
-/build
+# /build
 # Remove vs code settings
 .vscode
 
