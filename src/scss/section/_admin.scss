@@ -1,0 +1,22 @@
+.adnin {
+    &__container {
+        width: 100%;
+        max-width: 1550px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        .btn__add {
+            margin-top: 50px;
+            align-self: flex-end;
+        }
+    }
+
+    &__title,
+    .course__title {
+        font-family: SFUIText;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}

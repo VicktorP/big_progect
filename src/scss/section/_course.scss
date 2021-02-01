@@ -1,0 +1,61 @@
+.courses {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 110px 2fr 1fr 1fr 410px;
+        align-items: center;
+        background-color: $grey;
+        margin-bottom: 16px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__img {
+        &-wrap {
+            width: 64px;
+            height: 64px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 9px 24px;
+            border-radius: 12px;
+        }
+    }
+
+    &-neme {
+        margin: 0;
+        font-family: SFUIText;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: $black;
+        padding-bottom: 8px;
+    }
+
+    &-author,
+    &-text {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0;
+        color: $black;
+    }
+    &__time,
+    &__rating{
+        display: flex;
+        align-items: center;
+    }
+    &-icon{
+        margin-right: 10px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
